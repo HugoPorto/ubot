@@ -10,10 +10,10 @@ class BrickSetSpider(scrapy.Spider):
         print('Rodando BrickSetSpider...')
         self.datetimenow = datetime.datetime.now()
         self.datenow = datetime.date.today()
-        self.connection = pymysql.connect(host='br924.hostgator.com.br',
+        self.connection = pymysql.connect(host='',
                              user='focuxme_quotes',
-                             password='060089',
-                             db='focuxme_quotes',
+                             password='',
+                             db='',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
 
