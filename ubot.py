@@ -11,7 +11,7 @@ class BrickSetSpider(scrapy.Spider):
         self.datetimenow = datetime.datetime.now()
         self.datenow = datetime.date.today()
         self.connection = pymysql.connect(host='',
-                             user='focuxme_quotes',
+                             user='',
                              password='',
                              db='',
                              charset='utf8mb4',
