@@ -101,9 +101,5 @@ class BrickSetSpider(scrapy.Spider):
 
 Load.loading()
 spider = BrickSetSpider()
-<<<<<<< HEAD:scrapings/ubot.py
-spider.searchSimple()
-# spider.run()
-=======
 spider.run()
->>>>>>> 7eaea31c48d5d9421c53827f4f86a0b560d45a26:ubot.py
+
