@@ -11,10 +11,10 @@ class BrickSetSpider(scrapy.Spider):
     def __init__(self):
         self.datetimenow = datetime.datetime.now()
         self.datenow = datetime.date.today()
-        self.connection = pymysql.connect(host='br924.hostgator.com.br',
-                             user='focuxme_quotes',
-                             password='060089',
-                             db='focuxme_quotes',
+        self.connection = pymysql.connect(host='',
+                             user='',
+                             password='',
+                             db='',
                              charset='utf8mb4',
                              cursorclass=pymysql.cursors.DictCursor)
 
@@ -101,5 +101,9 @@ class BrickSetSpider(scrapy.Spider):
 
 Load.loading()
 spider = BrickSetSpider()
+<<<<<<< HEAD:scrapings/ubot.py
 spider.searchSimple()
 # spider.run()
+=======
+spider.run()
+>>>>>>> 7eaea31c48d5d9421c53827f4f86a0b560d45a26:ubot.py
